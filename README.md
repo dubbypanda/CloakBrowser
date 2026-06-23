@@ -114,6 +114,14 @@ npm install cloakbrowser playwright-core
 npm install cloakbrowser puppeteer-core
 ```
 
+**.NET / C#:**
+
+```bash
+dotnet add package CloakBrowser
+```
+
+> Community-maintained .NET client built on Microsoft.Playwright. See [`dotnet/README.md`](dotnet/README.md) for the full API.
+
 On first run, the stealth Chromium binary is automatically downloaded (~200MB, cached locally).
 
 **Optional:** Auto-detect timezone/locale from proxy IP:
@@ -1369,7 +1377,7 @@ Issues and PRs welcome. If something isn't working, [open an issue](https://gith
 
 ## Contributors
 
-- [@evelaa123](https://github.com/evelaa123) — humanize behavior, persistent contexts, Windows fix
+- [@evelaa123](https://github.com/evelaa123) — humanize behavior, persistent contexts, Windows fix, .NET client
 - [@yahooguntu](https://github.com/yahooguntu) — persistent contexts
 - [@kitiho](https://github.com/kitiho) — null viewport fix
 - [@eofreternal](https://github.com/eofreternal) — humanConfig type fix, humanized method option types, iframe pointer-events fix
